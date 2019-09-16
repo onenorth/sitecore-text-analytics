@@ -57,7 +57,7 @@ To prevent a lot of noise, we filter out any named entities not important for th
 
 In addition to filtering the named entities, we want to normalize the incoming named entities.  Many variations of a named entity may exist, when we only want to keep one.  For example, "U.S.", "US", and "United States" are the same.  Instead of tagging items with different variations, we only want to tag with "United States". Configurable rules have been added to help with normalization.
 
-The complete implementation of the `AzureCognitiveServicesTextAnalyticsNamedEntitiesDiscoveryProvider` class is located [here](https://bitbucket.org/onenorth/cortex-poc/src/master/src/OneNorth.SitecoreTextAnalytics/ContentTagging/Providers/AzureCognitiveServicesTextAnalyticsNamedEntitiesDiscoveryProvider.cs).
+The complete implementation of the `AzureCognitiveServicesTextAnalyticsNamedEntitiesDiscoveryProvider` class is located [here](https://github.com/onenorth/sitecore-text-analytics/blob/master/src/OneNorth.SitecoreTextAnalytics/ContentTagging/Providers/AzureCognitiveServicesTextAnalyticsNamedEntitiesDiscoveryProvider.cs).
 
 
 
