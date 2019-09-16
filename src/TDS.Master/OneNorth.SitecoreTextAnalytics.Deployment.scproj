@@ -33,8 +33,8 @@
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
     <PackageName>OneNorth.SitecoreTextAnalytics.Deployment.1.0.0</PackageName>
-    <PackageAuthor>Mike Skutta</PackageAuthor>
-    <PackagePublisher>Mike Skutta</PackagePublisher>
+    <PackageAuthor>One North Interactive</PackageAuthor>
+    <PackagePublisher>One North Interactive</PackagePublisher>
     <PackageVersion>1.0.0</PackageVersion>
     <PackageReadme />
     <SitecoreAssemblyPath />
