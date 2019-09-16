@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>OneNorth.SitecoreTextAnalytics</id>
+    <version>1.0.0</version>
+    <title>Sitecore Text Analytics</title>
+    <authors>Mike Skutta</authors>
+    <description>Sitecore Text Analytics</description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src=".\OneNorth.SitecoreTextAnalytics\bin\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.dll" target="lib\net471" />
+	  <file src=".\OneNorth.SitecoreTextAnalytics\bin\Microsoft.Rest.ClientRuntime.Azure.dll" target="lib\net471" />
+    <file src=".\OneNorth.SitecoreTextAnalytics\bin\Microsoft.Rest.ClientRuntime.dll" target="lib\net471" />
+    <file src=".\OneNorth.SitecoreTextAnalytics\bin\OneNorth.SitecoreTextAnalytics.dll" target="lib\net471" />
+    <file src=".\OneNorth.SitecoreTextAnalytics\bin\System.Net.Http.dll" target="lib\net471" />
+    <file src=".\OneNorth.SitecoreTextAnalytics\App_Config\Include\*.*" target="content\App_Config\Include\" />
+  </files>
+</package>

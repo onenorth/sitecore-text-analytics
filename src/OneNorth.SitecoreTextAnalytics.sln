@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNorth.SitecoreTextAnalytics", "OneNorth.SitecoreTextAnalytics\OneNorth.SitecoreTextAnalytics.csproj", "{296A0369-47C1-4F4C-86C6-D98250A4AC85}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "OneNorth.SitecoreTextAnalytics.Deployment", "TDS.Master\OneNorth.SitecoreTextAnalytics.Deployment.scproj", "{D460EEC8-8833-444D-8D7D-E13CBB0E24ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{296A0369-47C1-4F4C-86C6-D98250A4AC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296A0369-47C1-4F4C-86C6-D98250A4AC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296A0369-47C1-4F4C-86C6-D98250A4AC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296A0369-47C1-4F4C-86C6-D98250A4AC85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D460EEC8-8833-444D-8D7D-E13CBB0E24ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D460EEC8-8833-444D-8D7D-E13CBB0E24ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D460EEC8-8833-444D-8D7D-E13CBB0E24ED}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D460EEC8-8833-444D-8D7D-E13CBB0E24ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D460EEC8-8833-444D-8D7D-E13CBB0E24ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D460EEC8-8833-444D-8D7D-E13CBB0E24ED}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07955DDF-1191-4AD4-BEDE-ECAB5F4EDBB3}
+	EndGlobalSection
+EndGlobal
